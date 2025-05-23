@@ -220,17 +220,3 @@ Prometheus metrics are exposed on the port defined by `metrics_port` in `config.
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.
 (Optional: Add more specific contribution guidelines, code of conduct, etc.)
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details (you'll need to create this file).
-
----
-
-This provides a good starting point. You'll want to:
-*   Fill in `[YOUR_USERNAME]`.
-*   Create a `LICENSE.md` file (e.g., with MIT License text).
-*   Update the "Planned" features as you implement them.
-*   Add more detailed explanations for complex configuration options (like message templates) as they are developed.
-*   If you set up CI/CD, add badges for build status, etc.
-```
