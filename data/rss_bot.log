@@ -343,3 +343,9 @@
 {"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T17:02:23Z","message":"Starting to process feed"}
 {"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T17:02:24Z","message":"Feed not modified (304)"}
 {"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T17:02:24Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T17:07:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T17:12:23Z","time":"2025-05-23T17:07:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.570096,"time":"2025-05-23T17:07:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T17:07:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T17:07:24Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T17:07:24Z","message":"Feed content not modified"}
