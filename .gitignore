@@ -2,6 +2,10 @@
 /rss-telegram-bot # Or the actual name of your built binary
 /rss-telegram-bot.exe # Executable for Windows if you build locally
 
+# Binaries
+/rss-telegram-bot # Or the actual name of your built binary
+/rss-telegram-bot.exe # Executable for Windows if you build locally
+
 # Go modules
 /vendor/
 go.sum # Although go.sum should generally be committed, sometimes you might add temp replace dirs to it
@@ -23,6 +27,7 @@ Thumbs.db
 /data/*.journal
 /data/*.shm
 /data/*.wal
+/data/*
 
 # Log files (If not already covered)
 /data/*.log
