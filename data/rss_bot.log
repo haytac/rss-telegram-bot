@@ -155,3 +155,179 @@
 {"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":530,"time":"2025-05-23T14:47:37Z","message":"Preparing to send text message"}
 {"level":"error","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"error":"Post \"https://api.telegram.org/bot7688335394:AAEeVUi3KBbcViMMoWuMyQEzmX8kcf7HHuI/sendMessage\": read tcp 172.19.0.2:34976->149.154.167.220:443: read: connection reset by peer","time":"2025-05-23T14:47:37Z","message":"Failed to send message to Telegram"}
 {"level":"error","feed_id":1,"feed_url":"https://hnrss.org/frontpage","error":"sending message part to chat '7742478361': Post \"https://api.telegram.org/bot7688335394:AAEeVUi3KBbcViMMoWuMyQEzmX8kcf7HHuI/sendMessage\": read tcp 172.19.0.2:34976->149.154.167.220:443: read: connection reset by peer","item_title":"OpenAI: Scaling PostgreSQL to the Next Level","time":"2025-05-23T14:47:37Z","message":"Failed to send item to notifier"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T14:52:22Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T14:57:22Z","time":"2025-05-23T14:52:22Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.709552,"time":"2025-05-23T14:52:22Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:52:22Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":5,"time":"2025-05-23T14:52:23Z","message":"New items found"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":507,"time":"2025-05-23T14:52:23Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:52:23Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":530,"time":"2025-05-23T14:52:23Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:52:23Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":523,"time":"2025-05-23T14:52:24Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:52:24Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":470,"time":"2025-05-23T14:52:25Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:52:25Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":370,"time":"2025-05-23T14:52:26Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:52:26Z","message":"Message part sent successfully"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_processed":5,"time":"2025-05-23T14:52:26Z","message":"Finished processing feed"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T14:57:22Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:02:22Z","time":"2025-05-23T14:57:22Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.54776,"time":"2025-05-23T14:57:22Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:57:22Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:57:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:57:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:02:22Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:07:22Z","time":"2025-05-23T15:02:22Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.533537,"time":"2025-05-23T15:02:22Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:02:22Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:02:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:02:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:07:22Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:12:22Z","time":"2025-05-23T15:07:22Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.632821,"time":"2025-05-23T15:07:22Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:07:22Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:07:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:07:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:12:22Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:17:22Z","time":"2025-05-23T15:12:22Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299998.279879,"time":"2025-05-23T15:12:22Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:12:22Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:12:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:12:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:17:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:22:23Z","time":"2025-05-23T15:17:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.693722,"time":"2025-05-23T15:17:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:17:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:17:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:17:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:22:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:27:23Z","time":"2025-05-23T15:22:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.667992,"time":"2025-05-23T15:22:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:22:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:22:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:22:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:27:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:32:23Z","time":"2025-05-23T15:27:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.709461,"time":"2025-05-23T15:27:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:27:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:27:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:27:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:32:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:37:23Z","time":"2025-05-23T15:32:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.677297,"time":"2025-05-23T15:32:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:32:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:32:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:32:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:37:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:42:23Z","time":"2025-05-23T15:37:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.712222,"time":"2025-05-23T15:37:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:37:23Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":3,"time":"2025-05-23T15:37:23Z","message":"New items found"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":1322,"time":"2025-05-23T15:37:23Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T15:37:24Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":531,"time":"2025-05-23T15:37:24Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T15:37:24Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":611,"time":"2025-05-23T15:37:24Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T15:37:25Z","message":"Message part sent successfully"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_processed":3,"time":"2025-05-23T15:37:25Z","message":"Finished processing feed"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:42:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:47:23Z","time":"2025-05-23T15:42:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.712477,"time":"2025-05-23T15:42:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:42:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:42:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:42:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:47:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:52:23Z","time":"2025-05-23T15:47:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.664932,"time":"2025-05-23T15:47:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:47:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:47:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:47:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:52:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T15:57:23Z","time":"2025-05-23T15:52:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.742426,"time":"2025-05-23T15:52:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:52:23Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":1,"time":"2025-05-23T15:52:24Z","message":"New items found"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":294,"time":"2025-05-23T15:52:24Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T15:52:24Z","message":"Message part sent successfully"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_processed":1,"time":"2025-05-23T15:52:24Z","message":"Finished processing feed"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T15:57:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:02:23Z","time":"2025-05-23T15:57:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.743229,"time":"2025-05-23T15:57:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:57:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:57:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T15:57:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:02:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:07:23Z","time":"2025-05-23T16:02:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.785993,"time":"2025-05-23T16:02:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:02:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:02:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:02:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:07:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:12:23Z","time":"2025-05-23T16:07:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.759253,"time":"2025-05-23T16:07:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:07:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:07:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:07:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:12:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:17:23Z","time":"2025-05-23T16:12:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.709129,"time":"2025-05-23T16:12:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:12:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:12:23Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:12:23Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:17:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:22:23Z","time":"2025-05-23T16:17:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.332619,"time":"2025-05-23T16:17:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:17:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:17:24Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:17:24Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:22:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:27:23Z","time":"2025-05-23T16:22:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.640101,"time":"2025-05-23T16:22:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:22:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:22:24Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:22:24Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:27:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:32:23Z","time":"2025-05-23T16:27:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.730976,"time":"2025-05-23T16:27:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:27:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:27:24Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:27:24Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:32:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:37:23Z","time":"2025-05-23T16:32:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.566387,"time":"2025-05-23T16:32:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:32:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:32:24Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:32:24Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:37:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:42:23Z","time":"2025-05-23T16:37:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.500973,"time":"2025-05-23T16:37:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:37:23Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":4,"time":"2025-05-23T16:37:24Z","message":"New items found"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":391,"time":"2025-05-23T16:37:24Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T16:37:24Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":604,"time":"2025-05-23T16:37:24Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T16:37:24Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":382,"time":"2025-05-23T16:37:25Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T16:37:25Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":381,"time":"2025-05-23T16:37:26Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T16:37:26Z","message":"Message part sent successfully"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_processed":4,"time":"2025-05-23T16:37:26Z","message":"Finished processing feed"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:42:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:47:23Z","time":"2025-05-23T16:42:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.778557,"time":"2025-05-23T16:42:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:42:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:42:24Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:42:24Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:47:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:52:23Z","time":"2025-05-23T16:47:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.343804,"time":"2025-05-23T16:47:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:47:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:47:24Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:47:24Z","message":"Feed content not modified"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T16:52:23Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T16:57:23Z","time":"2025-05-23T16:52:23Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.661628,"time":"2025-05-23T16:52:23Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:52:23Z","message":"Starting to process feed"}
+{"level":"debug","feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:52:24Z","message":"Feed not modified (304)"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T16:52:24Z","message":"Feed content not modified"}

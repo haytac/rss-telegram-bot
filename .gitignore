@@ -1,0 +1,50 @@
+# Binaries
+/rss-telegram-bot # Or the actual name of your built binary
+/rss-telegram-bot.exe # Executable for Windows if you build locally
+
+# Go modules
+/vendor/
+go.sum # Although go.sum should generally be committed, sometimes you might add temp replace dirs to it
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# SQLite database
+/data/*.db
+/data/*.db-* # Temporary files created by SQLite during backup or restore
+/data/*.journal
+/data/*.shm
+/data/*.wal
+
+# Log files (If not already covered)
+/data/*.log
+
+# Docker-related
+/docker-compose.override.yml
+/.env
+# If building cross-platform
+/CGO_ENABLED=0
+# If you are storing certs locally for whatever reason, DON'T COMMIT:
+# /certs/
+
+# Temporary test artifacts
+*.test
+*.out
+*_test.go
+
+# Golang Migrate tool output
+/migrations/*.bak
+
+# Other
+*.tmp
+*.orig
+*~
+# Any other files or directories you want to exclude
