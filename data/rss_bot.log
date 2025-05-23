@@ -53,3 +53,105 @@
 {"level":"info","time":"2025-05-23T14:17:25Z","message":"Scheduler stopping..."}
 {"level":"info","time":"2025-05-23T14:17:25Z","message":"Scheduler stopped"}
 {"level":"info","time":"2025-05-23T14:17:25Z","message":"Application shut down gracefully."}
+{"level":"info","level":"debug","time":"2025-05-23T14:30:39Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:30:39Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","time":"2025-05-23T14:30:39Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","path":"./data/rss_bot.db","time":"2025-05-23T14:30:39Z","message":"Database connection established"}
+{"level":"info","time":"2025-05-23T14:30:39Z","message":"Database migrations applied successfully or no changes detected"}
+{"level":"info","time":"2025-05-23T14:30:39Z","message":"Starting application..."}
+{"level":"info","address":":9090","time":"2025-05-23T14:30:39Z","message":"Starting Prometheus metrics server"}
+{"level":"info","feed_id":1,"url":"https://hnrss.org/frontpage","initial_run_at":"2025-05-23T14:30:44Z","time":"2025-05-23T14:30:39Z","message":"Feed added to scheduler"}
+{"level":"info","time":"2025-05-23T14:30:39Z","message":"Scheduler started"}
+{"level":"debug","next_timer_fire_in":4999.842051,"time":"2025-05-23T14:30:39Z","message":"Scheduler timer reset"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T14:30:44Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T14:35:44Z","time":"2025-05-23T14:30:44Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.699632,"time":"2025-05-23T14:30:44Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:30:44Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":20,"time":"2025-05-23T14:30:46Z","message":"New items found"}
+{"level":"info","bot_username":"rss_feeder_haytac_bot","time":"2025-05-23T14:30:46Z","message":"Telegram bot authorized"}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","time":"2025-05-23T14:30:46Z","message":"Chat ID is not numeric, treating as channel username."}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":637,"time":"2025-05-23T14:30:46Z","message":"Preparing to send text message"}
+{"level":"error","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"error":"Bad Request: chat not found","time":"2025-05-23T14:30:46Z","message":"Failed to send message to Telegram"}
+{"level":"error","feed_id":1,"feed_url":"https://hnrss.org/frontpage","error":"sending message part to chat 'YOUR_TELEGRAM_CHAT_ID': Bad Request: chat not found","item_title":"Ancient law requires a bale of straw to hang from Charing Cross rail bridge","time":"2025-05-23T14:30:46Z","message":"Failed to send item to notifier"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T14:35:44Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T14:40:44Z","time":"2025-05-23T14:35:44Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.614182,"time":"2025-05-23T14:35:44Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:35:44Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":20,"time":"2025-05-23T14:35:45Z","message":"New items found"}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","time":"2025-05-23T14:35:45Z","message":"Chat ID is not numeric, treating as channel username."}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":637,"time":"2025-05-23T14:35:45Z","message":"Preparing to send text message"}
+{"level":"error","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"error":"Bad Request: chat not found","time":"2025-05-23T14:35:45Z","message":"Failed to send message to Telegram"}
+{"level":"error","feed_id":1,"feed_url":"https://hnrss.org/frontpage","error":"sending message part to chat 'YOUR_TELEGRAM_CHAT_ID': Bad Request: chat not found","item_title":"Ancient law requires a bale of straw to hang from Charing Cross rail bridge","time":"2025-05-23T14:35:45Z","message":"Failed to send item to notifier"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T14:40:44Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T14:45:44Z","time":"2025-05-23T14:40:44Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.439559,"time":"2025-05-23T14:40:44Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:40:44Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":20,"time":"2025-05-23T14:40:45Z","message":"New items found"}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","time":"2025-05-23T14:40:45Z","message":"Chat ID is not numeric, treating as channel username."}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":637,"time":"2025-05-23T14:40:45Z","message":"Preparing to send text message"}
+{"level":"error","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"error":"Bad Request: chat not found","time":"2025-05-23T14:40:45Z","message":"Failed to send message to Telegram"}
+{"level":"error","feed_id":1,"feed_url":"https://hnrss.org/frontpage","error":"sending message part to chat 'YOUR_TELEGRAM_CHAT_ID': Bad Request: chat not found","item_title":"Ancient law requires a bale of straw to hang from Charing Cross rail bridge","time":"2025-05-23T14:40:45Z","message":"Failed to send item to notifier"}
+{"level":"info","signal":"terminated","time":"2025-05-23T14:43:35Z","message":"Received shutdown signal"}
+{"level":"info","time":"2025-05-23T14:43:35Z","message":"Shutting down scheduler..."}
+{"level":"info","time":"2025-05-23T14:43:35Z","message":"Scheduler stop signal sent"}
+{"level":"info","time":"2025-05-23T14:43:35Z","message":"Closing database connection..."}
+{"level":"info","time":"2025-05-23T14:43:35Z","message":"Application shut down gracefully."}
+{"level":"info","level":"debug","time":"2025-05-23T14:46:13Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:46:13Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","level":"debug","time":"2025-05-23T14:46:21Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:46:21Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","path":"./data/rss_bot.db","time":"2025-05-23T14:46:21Z","message":"Database connection established"}
+{"level":"info","time":"2025-05-23T14:46:21Z","message":"Database migrations applied successfully or no changes detected"}
+{"level":"info","level":"debug","time":"2025-05-23T14:47:03Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:47:03Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","path":"./data/rss_bot.db","time":"2025-05-23T14:47:03Z","message":"Database connection established"}
+{"level":"info","time":"2025-05-23T14:47:03Z","message":"Database migrations applied successfully or no changes detected"}
+{"level":"info","level":"debug","time":"2025-05-23T14:47:17Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:47:17Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","time":"2025-05-23T14:47:17Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","path":"./data/rss_bot.db","time":"2025-05-23T14:47:17Z","message":"Database connection established"}
+{"level":"info","time":"2025-05-23T14:47:17Z","message":"Database migrations applied successfully or no changes detected"}
+{"level":"info","time":"2025-05-23T14:47:17Z","message":"Starting application..."}
+{"level":"info","address":":9090","time":"2025-05-23T14:47:17Z","message":"Starting Prometheus metrics server"}
+{"level":"info","feed_id":1,"url":"https://hnrss.org/frontpage","initial_run_at":"2025-05-23T14:47:22Z","time":"2025-05-23T14:47:17Z","message":"Feed added to scheduler"}
+{"level":"info","time":"2025-05-23T14:47:17Z","message":"Scheduler started"}
+{"level":"debug","next_timer_fire_in":4999.93378,"time":"2025-05-23T14:47:17Z","message":"Scheduler timer reset"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T14:47:22Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T14:52:22Z","time":"2025-05-23T14:47:22Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.809552,"time":"2025-05-23T14:47:22Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:47:22Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":20,"time":"2025-05-23T14:47:23Z","message":"New items found"}
+{"level":"info","bot_username":"rss_feeder_haytac_bot","time":"2025-05-23T14:47:23Z","message":"Telegram bot authorized"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":637,"time":"2025-05-23T14:47:23Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:23Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":419,"time":"2025-05-23T14:47:23Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:24Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":433,"time":"2025-05-23T14:47:24Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:25Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":433,"time":"2025-05-23T14:47:25Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:26Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":379,"time":"2025-05-23T14:47:26Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:26Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":415,"time":"2025-05-23T14:47:27Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:27Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":338,"time":"2025-05-23T14:47:28Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:28Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":437,"time":"2025-05-23T14:47:29Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:30Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":589,"time":"2025-05-23T14:47:30Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:31Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":605,"time":"2025-05-23T14:47:31Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:32Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":1177,"time":"2025-05-23T14:47:32Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:33Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":405,"time":"2025-05-23T14:47:33Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:34Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":394,"time":"2025-05-23T14:47:34Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:35Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":428,"time":"2025-05-23T14:47:35Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:35Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":464,"time":"2025-05-23T14:47:36Z","message":"Preparing to send text message"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"time":"2025-05-23T14:47:36Z","message":"Message part sent successfully"}
+{"level":"debug","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":530,"time":"2025-05-23T14:47:37Z","message":"Preparing to send text message"}
+{"level":"error","chat_id_str":"7742478361","bot_username":"rss_feeder_haytac_bot","part_index":0,"error":"Post \"https://api.telegram.org/bot7688335394:AAEeVUi3KBbcViMMoWuMyQEzmX8kcf7HHuI/sendMessage\": read tcp 172.19.0.2:34976->149.154.167.220:443: read: connection reset by peer","time":"2025-05-23T14:47:37Z","message":"Failed to send message to Telegram"}
+{"level":"error","feed_id":1,"feed_url":"https://hnrss.org/frontpage","error":"sending message part to chat '7742478361': Post \"https://api.telegram.org/bot7688335394:AAEeVUi3KBbcViMMoWuMyQEzmX8kcf7HHuI/sendMessage\": read tcp 172.19.0.2:34976->149.154.167.220:443: read: connection reset by peer","item_title":"OpenAI: Scaling PostgreSQL to the Next Level","time":"2025-05-23T14:47:37Z","message":"Failed to send item to notifier"}
