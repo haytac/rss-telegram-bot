@@ -1,0 +1,55 @@
+{"level":"info","level":"debug","time":"2025-05-23T13:58:22Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T13:58:22Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","level":"debug","time":"2025-05-23T14:00:27Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:00:27Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","level":"debug","time":"2025-05-23T14:01:25Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:01:25Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","level":"debug","time":"2025-05-23T14:02:58Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:02:58Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","path":"./data/rss_bot.db","time":"2025-05-23T14:02:58Z","message":"Database connection established"}
+{"level":"info","level":"debug","time":"2025-05-23T14:06:50Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:06:50Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","level":"debug","time":"2025-05-23T14:07:07Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:07:07Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","path":"./data/rss_bot.db","time":"2025-05-23T14:07:07Z","message":"Database connection established"}
+{"level":"info","time":"2025-05-23T14:07:07Z","message":"Database migrations applied successfully or no changes detected"}
+{"level":"info","level":"debug","time":"2025-05-23T14:11:23Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:11:23Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","path":"./data/rss_bot.db","time":"2025-05-23T14:11:23Z","message":"Database connection established"}
+{"level":"info","time":"2025-05-23T14:11:23Z","message":"Database migrations applied successfully or no changes detected"}
+{"level":"info","level":"debug","time":"2025-05-23T14:11:36Z","message":"Logger initialized"}
+{"level":"info","time":"2025-05-23T14:11:36Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","time":"2025-05-23T14:11:36Z","message":"Demo encryption key initialized (WARNING: For demo purposes only)."}
+{"level":"info","path":"./data/rss_bot.db","time":"2025-05-23T14:11:36Z","message":"Database connection established"}
+{"level":"info","time":"2025-05-23T14:11:36Z","message":"Database migrations applied successfully or no changes detected"}
+{"level":"info","time":"2025-05-23T14:11:36Z","message":"Starting application..."}
+{"level":"info","address":":9090","time":"2025-05-23T14:11:36Z","message":"Starting Prometheus metrics server"}
+{"level":"info","feed_id":1,"url":"https://hnrss.org/frontpage","initial_run_at":"2025-05-23T14:11:41Z","time":"2025-05-23T14:11:36Z","message":"Feed added to scheduler"}
+{"level":"info","time":"2025-05-23T14:11:36Z","message":"Scheduler started"}
+{"level":"debug","next_timer_fire_in":4999.324231,"time":"2025-05-23T14:11:36Z","message":"Scheduler timer reset"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T14:11:41Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T14:16:41Z","time":"2025-05-23T14:11:41Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.393561,"time":"2025-05-23T14:11:41Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:11:41Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":20,"time":"2025-05-23T14:11:41Z","message":"New items found"}
+{"level":"info","bot_username":"rss_feeder_haytac_bot","time":"2025-05-23T14:11:45Z","message":"Telegram bot authorized"}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","time":"2025-05-23T14:11:45Z","message":"Chat ID is not numeric, treating as channel username."}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":447,"time":"2025-05-23T14:11:45Z","message":"Preparing to send text message"}
+{"level":"error","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"error":"Bad Request: can't parse entities: Unsupported start tag \"p\" at byte offset 53","time":"2025-05-23T14:11:45Z","message":"Failed to send message to Telegram"}
+{"level":"error","feed_id":1,"feed_url":"https://hnrss.org/frontpage","error":"sending message part to chat 'YOUR_TELEGRAM_CHAT_ID': Bad Request: can't parse entities: Unsupported start tag \"p\" at byte offset 53","item_title":"Improving performance of rav1d video decoder","time":"2025-05-23T14:11:45Z","message":"Failed to send item to notifier"}
+{"level":"debug","feed_id":1,"url":"https://hnrss.org/frontpage","time":"2025-05-23T14:16:41Z","message":"Executing scheduled task"}
+{"level":"debug","feed_id":1,"next_run_at":"2025-05-23T14:21:41Z","time":"2025-05-23T14:16:41Z","message":"Feed rescheduled"}
+{"level":"debug","next_timer_fire_in":299999.486083,"time":"2025-05-23T14:16:41Z","message":"Scheduler timer reset"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","time":"2025-05-23T14:16:41Z","message":"Starting to process feed"}
+{"level":"info","feed_id":1,"feed_url":"https://hnrss.org/frontpage","new_items_count":20,"time":"2025-05-23T14:16:41Z","message":"New items found"}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","time":"2025-05-23T14:16:41Z","message":"Chat ID is not numeric, treating as channel username."}
+{"level":"debug","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"text_length":447,"time":"2025-05-23T14:16:41Z","message":"Preparing to send text message"}
+{"level":"error","chat_id_str":"YOUR_TELEGRAM_CHAT_ID","bot_username":"rss_feeder_haytac_bot","part_index":0,"error":"Bad Request: can't parse entities: Unsupported start tag \"p\" at byte offset 53","time":"2025-05-23T14:16:41Z","message":"Failed to send message to Telegram"}
+{"level":"error","feed_id":1,"feed_url":"https://hnrss.org/frontpage","error":"sending message part to chat 'YOUR_TELEGRAM_CHAT_ID': Bad Request: can't parse entities: Unsupported start tag \"p\" at byte offset 53","item_title":"Improving performance of rav1d video decoder","time":"2025-05-23T14:16:41Z","message":"Failed to send item to notifier"}
+{"level":"info","signal":"terminated","time":"2025-05-23T14:17:25Z","message":"Received shutdown signal"}
+{"level":"info","time":"2025-05-23T14:17:25Z","message":"Shutting down scheduler..."}
+{"level":"info","time":"2025-05-23T14:17:25Z","message":"Scheduler stop signal sent"}
+{"level":"info","time":"2025-05-23T14:17:25Z","message":"Closing database connection..."}
+{"level":"info","time":"2025-05-23T14:17:25Z","message":"Scheduler stopping..."}
+{"level":"info","time":"2025-05-23T14:17:25Z","message":"Scheduler stopped"}
+{"level":"info","time":"2025-05-23T14:17:25Z","message":"Application shut down gracefully."}

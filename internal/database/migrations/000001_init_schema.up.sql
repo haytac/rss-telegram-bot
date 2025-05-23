@@ -1,8 +1,10 @@
+-- File: 000001_init_schema.up.sql
+
 CREATE TABLE proxies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT UNIQUE NOT NULL,
     type TEXT CHECK(type IN ('http', 'https', 'socks5')) NOT NULL,
-    address TEXT NOT NULL, -- host:port
+    address TEXT NOT NULL,
     username TEXT,
     password TEXT,
     is_default_for_rss BOOLEAN DEFAULT FALSE,
@@ -13,7 +15,7 @@ CREATE TABLE proxies (
 
 CREATE TABLE telegram_bots (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    token_hash TEXT UNIQUE NOT NULL, -- Store hash of token, not raw token
+    token_hash TEXT UNIQUE NOT NULL,
     description TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
@@ -22,8 +24,7 @@ CREATE TABLE telegram_bots (
 CREATE TABLE formatting_profiles (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT UNIQUE NOT NULL,
-    -- Store complex settings as JSON for flexibility
-    template_config TEXT, -- JSON: { "title_template": "...", "message_template": "...", "hashtags": [...], ... }
+    template_config TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
@@ -33,12 +34,12 @@ CREATE TABLE feeds (
     url TEXT UNIQUE NOT NULL,
     user_title TEXT,
     frequency_seconds INTEGER NOT NULL DEFAULT 300,
-    telegram_bot_id INTEGER, -- FK
+    telegram_bot_id INTEGER,
     telegram_chat_id TEXT NOT NULL,
-    last_processed_item_guid_hash TEXT, -- Hash of GUID or Link of the last processed item
+    last_processed_item_guid_hash TEXT,
     last_fetched_at DATETIME,
-    proxy_id INTEGER, -- FK
-    formatting_profile_id INTEGER, -- FK
+    proxy_id INTEGER,
+    formatting_profile_id INTEGER,
     is_enabled BOOLEAN DEFAULT TRUE,
     http_etag TEXT,
     http_last_modified TEXT,
@@ -52,7 +53,7 @@ CREATE TABLE feeds (
 CREATE TABLE processed_items (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     feed_id INTEGER NOT NULL,
-    item_guid_hash TEXT NOT NULL, -- Hash of GUID or Link to identify item uniquely per feed
+    item_guid_hash TEXT NOT NULL,
     processed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (feed_id) REFERENCES feeds(id) ON DELETE CASCADE,
     UNIQUE (feed_id, item_guid_hash)
@@ -67,31 +68,7 @@ CREATE INDEX idx_telegram_bots_token_hash ON telegram_bots(token_hash);
 CREATE INDEX idx_formatting_profiles_name ON formatting_profiles(name);
 
 -- Triggers for updated_at
-CREATE TRIGGER update_feeds_updated_at
-AFTER UPDATE ON feeds
-FOR EACH ROW
-BEGIN
-    UPDATE feeds SET updated_at = CURRENT_TIMESTAMP WHERE id = OLD.id;
-END;
-
--- Similar triggers for proxies, telegram_bots, formatting_profiles
-
--- ... other tables ...
-
-CREATE TABLE telegram_bots (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    token_hash TEXT UNIQUE NOT NULL, -- Store hash of token for uniqueness checks
-    encrypted_token TEXT,          -- Placeholder for ACTUAL ENCRYPTED token
-    description TEXT,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
-
--- ... rest of the schema and triggers ...
--- Add trigger for telegram_bots updated_at if not already present
-CREATE TRIGGER update_telegram_bots_updated_at
-AFTER UPDATE ON telegram_bots
-FOR EACH ROW
-BEGIN
-    UPDATE telegram_bots SET updated_at = CURRENT_TIMESTAMP WHERE id = OLD.id;
-END;
+CREATE TRIGGER update_feeds_updated_at AFTER UPDATE ON feeds FOR EACH ROW BEGIN UPDATE feeds SET updated_at = CURRENT_TIMESTAMP WHERE id = OLD.id; END;
+CREATE TRIGGER update_proxies_updated_at AFTER UPDATE ON proxies FOR EACH ROW BEGIN UPDATE proxies SET updated_at = CURRENT_TIMESTAMP WHERE id = OLD.id; END;
+CREATE TRIGGER update_telegram_bots_updated_at AFTER UPDATE ON telegram_bots FOR EACH ROW BEGIN UPDATE telegram_bots SET updated_at = CURRENT_TIMESTAMP WHERE id = OLD.id; END;
+CREATE TRIGGER update_formatting_profiles_updated_at AFTER UPDATE ON formatting_profiles FOR EACH ROW BEGIN UPDATE formatting_profiles SET updated_at = CURRENT_TIMESTAMP WHERE id = OLD.id; END;
