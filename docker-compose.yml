@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  rss-bot:
+    build: .
+    container_name: rss_telegram_bot
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data                      # For database and log files
+      - ./config.yml:/app/config.yml:ro       # Mount your config file
+      # - ./migrations:/app/migrations:ro      # If migrations are not baked into app binary path
+    ports:
+      - "9090:9090"                           # Expose metrics port (if configured to :9090 in config.yml)
+    environment:
+      # Example environment variables (these override config.yml if viper is set up for it)
+      # RSS_BOT_LOG_LEVEL: "debug"
+      # RSS_BOT_DATABASE_PATH: "/app/data/rss_bot.db"
+      # RSS_BOT_METRICS_PORT: ":9090"
+      TZ: "Etc/UTC" # Set timezone
+    # healthcheck: (TODO: Implement a healthcheck endpoint in the app if needed)
+    #   test: ["CMD", "curl", "-f", "http://localhost:9090/metrics"] # Example healthcheck
+    #   interval: 30s
+    #   timeout: 10s
+    #   retries: 3

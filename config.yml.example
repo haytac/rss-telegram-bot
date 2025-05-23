@@ -1,0 +1,15 @@
+database_path: "./data/rss_bot.db" # Ensure ./data directory exists or app can create it
+
+log:
+  level: "debug"     # debug, info, warn, error
+  console: true
+  file: "./data/rss_bot.log" # Path to log file
+  time_format: "2006-01-02T15:04:05Z07:00"
+
+metrics_port: ":9090"
+
+default_fetch_frequency_seconds: 300 # 5 minutes
+# ...
+# WARNING: For DEMO purposes only. In production, manage this key securely outside the config file.
+# e.g., via environment variable (RSS_BOT_ENCRYPTION_KEY) or a proper secrets manager.
+encryption_key: "my-super-secret-and-long-enough-demo-key-12345"
